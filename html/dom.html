@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài 4 - DOM</title>
+</head>
+<body>
+
+    <h2 id="title">Xin chào</h2>
+
+    <button id="btnChange">Đổi nội dung</button>
+
+    <script>
+        const title = document.getElementById("title");
+        const btnChange = document.getElementById("btnChange");
+
+        btnChange.addEventListener("click", function () {
+
+            // Đổi nội dung
+            title.textContent = "Học DOM thật vui!";
+
+            // Đổi màu chữ
+            title.style.color = "blue";
+
+            // Đổi màu nền
+            title.style.backgroundColor = "yellow";
+        });
+    </script>
+
+</body>
+</html>
