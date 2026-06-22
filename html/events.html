@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Event Playground</title>
+</head>
+<body>
+
+    <h2>Bài 5 - Event Playground</h2>
+
+    <!-- click -->
+    <h3>1. Click</h3>
+    <button id="btnClick">Bấm vào đây</button>
+    <p id="clickResult"></p>
+
+    <hr>
+
+    <!-- change -->
+    <h3>2. Change</h3>
+    <select id="colorSelect">
+        <option value="">Chọn màu</option>
+        <option value="red">Đỏ</option>
+        <option value="blue">Xanh</option>
+        <option value="green">Xanh lá</option>
+    </select>
+
+    <p id="colorText">Văn bản mẫu</p>
+
+    <hr>
+
+    <!-- keyup -->
+    <h3>3. Keyup</h3>
+    <input type="text" id="nameInput" placeholder="Nhập tên">
+
+    <p>Xem trước: <span id="preview"></span></p>
+
+    <hr>
+
+    <!-- submit -->
+    <h3>4. Submit</h3>
+
+    <form id="myForm">
+        <input type="text" placeholder="Nhập email">
+        <button type="submit">Gửi</button>
+    </form>
+
+    <p id="submitResult"></p>
+
+    <script src="../js/events.js"></script>
+
+</body>
+</html>
