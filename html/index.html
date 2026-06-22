@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website MyJS</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Menu -->
+    <nav>
+        <ul>
+            <li><a href="#home">Trang chủ</a></li>
+            <li><a href="#about">Giới thiệu</a></li>
+            <li><a href="#contact">Liên hệ</a></li>
+        </ul>
+    </nav>
+
+    <!-- Giới thiệu -->
+    <section id="about">
+        <h2>Giới thiệu</h2>
+
+        <button id="btnToggle">
+            Ẩn/Hiện nội dung
+        </button>
+
+        <div id="content">
+            <p>
+                Đây là website mini project được xây dựng bằng HTML, CSS và JavaScript.
+            </p>
+        </div>
+    </section>
+
+    <!-- Form liên hệ -->
+    <section id="contact">
+        <h2>Liên hệ</h2>
+
+        <form id="contactForm">
+            <input type="text" id="name" placeholder="Nhập họ tên">
+            <input type="email" id="email" placeholder="Nhập email">
+            <textarea id="message" placeholder="Nhập nội dung"></textarea>
+
+            <button type="submit">Gửi</button>
+        </form>
+
+        <p id="result"></p>
+    </section>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
